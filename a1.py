@@ -16,7 +16,7 @@ import subprocess  # Import for running subprocesses
 from PIL import ImageGrab  # Per catturare screenshot
 
 # Config e variabili globali
-GOOGLE_API_KEY = 'AIzaSyBL59lBTfKPJaVw8s8IqwD6TyiXG0h0Dz0'
+GOOGLE_API_KEY = ''
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 chat = model.start_chat()
